@@ -1,8 +1,7 @@
-package meh.SkypeBot.listeners;
+package Slayer.SkypeBot.listeners;
 
 import com.skype.*;
-import meh.SkypeBot.SkypeBot;
-import meh.SkypeBot.XMLHelper;
+import Slayer.SkypeBot.SkypeBot;
 
 import java.util.ArrayList;
 import java.util.Arrays;

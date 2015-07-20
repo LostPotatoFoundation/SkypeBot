@@ -1,4 +1,4 @@
-package meh.SkypeBot.commands;
+package Slayer.SkypeBot.commands;
 
 import com.skype.Chat;
 import com.skype.SkypeException;

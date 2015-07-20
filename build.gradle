@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile "com.github.taksan:skype-java-api:1.7"
+	compile "org.reflections:reflections:0.9.9-RC1"
+	compile "org.apache.commons:commons-lang3:3.4"
+}
+
+jar {
+    manifest {
+        attributes("Main-Class": "Slayer.SkypeBot.SkypeBot",
+                   "Application-Name": "SkypeBot")
+    }
+}

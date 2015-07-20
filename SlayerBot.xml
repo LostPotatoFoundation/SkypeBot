@@ -1,0 +1,307 @@
+﻿<?xml version="1.0"?>
+<SlayerBot>
+   <command commandName="Curse">
+      <response>http://www.curse.com/users/DeathToHerobrine/projects</response>
+   </command>
+   <command commandName="Facebook">
+      <response>https://facebook.com/hxckdms"</response>
+   </command>
+   <command commandName="Github">
+      <response>http://github.com/HxCKDMS</response>
+   </command>
+   <command commandName="MCF">
+      <response>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2351391-hxc-mods-hxc-core-hxcenchants-hxc-blocks-hxc</response>
+   </command>
+   <command commandName="Patreon">
+      <response>https://www.patreon.com/HxCKDMS</response>
+   </command>
+   <command commandName="Twitter">
+      <response>https://twitter.com/hxckdms</response>
+   </command>
+   <command commandName="Email">
+      <response>HxCKDMS@gmail.com</response>
+   </command>
+   <command commandName="KP IP">
+      <response>null</response>
+   </command>
+   <command commandName="KP">
+      <response>~KP [MMC/Technic]</response>
+   </command>
+   <command commandName="KP Technic">
+      <response>null</response>
+   </command>
+   <command commandName="KP MMC">
+      <response>https://www.dropbox.com/s/wvpvm8v12hl6xsj/karelpack%20v6.zip</response>
+   </command>
+   <joke>
+     <joke>A woman gets on a bus with her baby. The bus driver says: ''Ugh, that's the ugliest baby I've ever seen!'' The woman walks to the rear of the bus and sits down, fuming. She says to a man next to her: ''The driver just insulted me!'' The man says: ''You go up there and tell him off. Go on, I'll hold your monkey for you.''</joke>
+     <joke>''I went to the zoo the other day, there was only one dog in it, it was a shitzu.''</joke>
+     <joke>''Dyslexic man walks into a bra''</joke>
+     <joke>A young blonde woman is distraught because she fears her husband is having an affair, so she goes to a gun shop and buys a handgun. The next day she comes home to find her husband in bed with a beautiful redhead. She grabs the gun and holds it to her own head. The husband jumps out of bed, begging and pleading with her not to shoot herself. Hysterically the blonde responds to the husband, ''Shut up...you're next!''</joke>
+     <joke>A classic Tommy Cooper gag ''I said to the Gym instructor "Can you teach me to do the splits?'' He said, ''How flexible are you?'' I said, ''I can't make Tuesdays'', was fifth.</joke>
+     <joke>Police arrested two kids yesterday, one was drinking battery acid, the other was eating fireworks. They charged one - and let the other one off.</joke>
+     <joke>Two aerials meet on a roof - fall in love - get married.  The ceremony was rubbish - but the reception was brilliant.</joke>
+     <joke>Another one was:  Doc, I can't stop singing the 'Green Green Grass of Home'. He said: 'That sounds like Tom Jones syndrome'. 'Is it common?'I asked.  'It's not unusual' he replied.</joke>
+     <joke>I'm on a whiskey diet. I've lost three days already.</joke>
+     <joke>A man walks into a bar with a roll of tarmac under his arm and says: ''Pint please, and one for the road.''</joke>
+     <joke>I went to the doctors the other day and I said, 'Have you got anything for wind?' So he gave me a kite.</joke>
+     <joke>My mother-in-law fell down a wishing well, I was amazed, I never knew they worked.</joke>
+     <joke>I saw this bloke chatting up a cheetah; I thought, ''He's trying to pull a fast one''.</joke>
+     <joke>A woman has twins, and gives them up for adoption. One of them goes to a family in Egypt and is named 'Amal.' The other goes to a family in Spain, they name him Juan'. Years later; Juan sends a picture of himself to his mum. Upon receiving the picture, she tells her husband that she wished she also had a picture of Amal. Her husband responds, ''But they are twins. If you've seen Juan, you've seen Amal.''</joke>
+     <joke>There's two fish in a tank, and one says ''How do you drive this thing?''</joke>
+     <joke>I went to buy some camouflage trousers the other day but I couldn't find any.</joke>
+     <joke>When Susan's boyfriend proposed marriage to her she said: ''I love the simple things in life, but I don't want one of them for my husband''.</joke>
+     <joke>''My therapist says I have a preoccupation with vengeance. We'll see about that.''</joke>
+     <joke>I rang up British Telecom, I said, ''I want to report a nuisance caller'', he said ''Not you again''.</joke>
+     <joke>I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.</joke>
+     <joke>A jump-lead walks into a bar. The barman says ''I'll serve you, but don't start anything''</joke>
+     <joke>Slept like a log last night........ Woke up in the fireplace.</joke>
+     <joke>A priest, a rabbi and a vicar walk into a bar. The barman says, ''Is this some kind of joke?''</joke>
+     <joke>A sandwich walks into a bar. The barman says ''Sorry we don't serve food in here''</joke>
+     <joke>The other day I sent my girlfriend a huge pile of snow. I rang her up, I said ''Did you get my drift?''.</joke>
+     <joke>I cleaned the attic with the wife the other day. Now I can't get the cobwebs out of her hair.</joke>
+     <joke>Went to the paper shop - it had blown away.</joke>
+     <joke>A group of chess enthusiasts checked into a hotel and were standing in the lobby discussing their recent tournament victories. After about an hour, the manager came out of the office and asked them to disperse. ''But why?'' they asked, as they moved off. ''because,'' he said ''I can't stand chess nuts boasting in an open foyer.''</joke>
+     <joke>I was in Tesco's and I saw this man and woman wrapped in a barcode. I said, ''Are you two an item?''</joke>
+     <joke>I'm in great mood tonight because the other day I entered a competition and I won a years supply of Marmite......... one jar.</joke>
+     <joke>So I went to the Chinese restaurant and this duck came up to me with a red rose and says ''Your eyes sparkle like diamonds''. I said, ''Waiter, I asked for a-ROMATIC duck''.</joke>
+     <joke>Four fonts walk into a bar the barman says ''Oi - get out! We don't want your type in here''</joke>
+     <joke>I was having dinner with Garry Kasporov (world chess champion) and there was a check tablecloth. It took him two hours to pass me the salt.</joke>
+     <joke>There was a man who entered a local paper's pun contest.. He sent in ten different puns, in the hope that at least one of the puns would win. Unfortunately, no pun in ten did.</joke>
+     <joke>I went down the local supermarket, I said, ''I want to make a complaint, this vinegar's got lumps in it'', he said, "Those are pickled onions''.</joke>
+     <joke>I backed a horse last week at ten to one.  It came in at quarter past four.</joke>
+     <joke>I swear, the other day I bought a packet of peanuts, and on the packet it said ''may contain nuts.'' Well, YES! That's what I bought the buggers for! You'd be annoyed if you opened it and a socket set fell out!''</joke>
+     <joke>A lorry-load of tortoises crashed into a trainload of terrapins, What a turtle disaster</joke>
+     <joke>My phone will ring at 2 in the morning, and my wife'll look at me and go, ''Who's that calling at this time?' ''I don't know! If I knew that we wouldn't need the bloody phone!''</joke>
+     <joke>I said to this train driver ''I want to go to Paris". He said ''Eurostar?'' I said, ''I've been on telly but I'm no Dean Martin''.</joke>
+     <joke>Two Eskimos sitting in a kayak were chilly. But when they lit a fire in the craft, it sank, proving once and for all that you can't have your kayak and heat it.</joke>
+     <joke>I've got a friend who's fallen in love with two school bags, he's bisatchel.</joke>
+     <joke>You see my next-door neighbour worships exhaust pipes, he's a catholic converter.</joke>
+     <joke>A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: ''I'm looking for the man who shot my paw.''</joke>
+     <joke>I tried water polo but my horse drowned.</joke>
+     <joke>I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.</joke>
+     <joke>So I met this gangster who pulls up the back of people's pants, it was Wedgie Kray.</joke>
+     <joke>Went to the corner shop - bought 4 corners.</joke>
+     <joke>A seal walks into a club...</joke>
+     <joke> I went to the Doctors the other day, and he said, 'Go to Bournemouth, it's great for flu'. So I went  -  and I got it.</joke>
+     <joke>If you want to catch a squirrel just climb a tree and act like a nut.</joke>
+     <joke>So this guy with a premature ejaculation problem comes out of nowhere.</joke>
+     <joke>A magician was walking down the street and turned into a grocery store.</joke>
+     <joke>A blind man walks into a bar. And a table. And a chair.</joke>
+     <joke>Why don't you ever see hippopotamus hiding in trees? Because they're really good at it.</joke>
+     <joke>Did you hear about the Mexican train killer? He had locomotives.</joke>
+     <joke>How does NASA organize their company parties? They planet.</joke>
+     <joke>Why can't you hear a pterodactyl go to the bathroom? Because the “P” is silent.</joke>
+     <joke>What kind of shoes do ninjas wear? Sneakers.</joke>
+     <joke>Why does Snoop Dogg carry an umbrella? Fo' drizzle.</joke>
+     <joke>Did you hear about the new corduroy pillows? They're making headlines everywhere!</joke>
+     <joke>Why was six afraid of seven? Because seven was a well known six offender.</joke>
+     <joke>What time is it when you have to go to the dentist? Tooth-hurtie.</joke>
+     <joke>My friend recently got crushed by a pile of books, but he's only got his shelf to blame.</joke>
+     <joke>What did Jay-Z call his girlfriend before they got married? Feyoncé.</joke>
+     <joke>Time flies like an arrow, fruit flies like banana.</joke>
+     <joke>How many kids with ADHD does it take to change a light bulb? Let's go play on our bikes.</joke>
+     <joke>What do you call dangerous precipitation? A rain of terror.</joke>
+     <joke>What's the best part about living in Switzerland? Not sure, but the flag is a big plus.</joke>
+     <joke>Two fish are in a tank. One turns to the other and asks “How do you drive this thing?”</joke>
+     <joke>Why can't a bike stand on its own? It's two tired.</joke>
+     <joke>Why didn't the lifeguard save the hippie? Because he was too far out man!</joke>
+     <joke>Last night I almost had a threesome, I only needed two more people!</joke>
+     <joke>What do you call a big pile of kittens? A meowntain.</joke>
+     <joke>I wondered why the baseball was getting bigger. Then it hit me.</joke>
+     <joke>Atheism is a non-prophet organization.</joke>
+     <joke>Just went to an emotional wedding. Even the cake was in tiers.</joke>
+     <joke>When you get a bladder infection, urine trouble.</joke>
+     <joke>I wrote a song about a tortilla. Well actually, it's more of a wrap.</joke>
+     <joke>What do you call a dinosaur with a extensive vocabulary? A thesaurus.</joke>
+     <joke>How did the hipster burn his tongue? He drank his coffee before it was cool.</joke>
+     <joke>PMS should just be called ovary-acting.</joke>
+     <joke>Marketing companies should use chromosomes in advertisements because sex cells.</joke>
+     <joke>Pampered cows produce spoiled milk.</joke>
+     <joke>Learn sign language, it's very handy.</joke>
+     <joke>I started a band called 999 Megabytes — we haven't gotten a gig yet.</joke>
+     <joke>You want to hear a pizza joke? Never mind, it's pretty cheesy.</joke>
+     <joke>What is the difference between ignorance and apathy? I don't know, and I don't care.</joke>
+     <joke>Dry erase boards are remarkable.</joke>
+     <joke>Dwarfs and midgets have very little in common.</joke>
+     <joke>How do you make Holy water? Boil the hell out of it.</joke>
+     <joke>It's hard to explain puns to kleptomaniacs because they always take things literally.</joke>
+     <joke>I used to think the brain was the most important organ. Then I thought, look what's telling me that.</joke>
+     <joke>The midget fortune teller who kills his customers is a small medium at large.</joke>
+     <joke>A farmer in the field with his cows counted 196 of them, but when he rounded them up he had 200.</joke>
+     <joke>What does a nosey pepper do? Get jalapeño business.</joke>
+     <joke>What is Bruce Lee's favorite drink? Wataaaaah!</joke>
+     <joke>The dyslexic devil worshipper sold his soul to Santa.</joke>
+     <joke>You kill vegetarian vampires with a steak to the heart.</joke>
+     <joke>There was a prison break and I saw a midget climb up the fence. As he jumped down her sneered at me and I thought, well that's a little condescending.</joke>
+   </joke>
+   <troll>
+     <troll>inserts nails into %%%'s anus.</troll>
+     <troll>staples tapeworms to %%%'s private parts.</troll>
+     <troll>shoots arrow directly into %%%'s knee.</troll>
+     <troll>feeds %%% a burnt potato.</troll>
+     <troll>feeds %%% 100 pounds of horse radish.</troll>
+     <troll>feeds %%% 100 pounds of wasabi.</troll>
+     <troll>electrocutes %%%'s nipples with jumper cables attached to an outlet.</troll>
+     <troll>inserts forks into %%%'s shoulders.</troll>
+     <troll>installs Norton Anti-virus onto %%%'s computer.</troll>
+     <troll>replaces %%%'s phone with a white hot piece of metal.</troll>
+     <troll>straps %%% into a chair and forces them to listen to 100 hours of Justin Bieber.</troll>
+     <troll>signs up %%% for being an American medical research guinea pig.</troll>
+     <troll>signs up %%% for a faecal matter transplant.</troll>
+     <troll>signs up %%% for a shipment of 100 truck loads of Justin Bieber albums.</troll>
+     <troll>inserts dry ice into %%%'s anus.</troll>
+     <troll>gives %%% explosive diarrhoea.</troll>
+     <troll>gives %%% rhinorrhoea.</troll>
+     <troll>gives %%% nipple piercing the size of a car tire.</troll>
+     <troll>gives %%% anal lube then looks at them with suggestive eyes.</troll>
+     <troll>gives %%% flavoured lube then looks at them with suggestive eyes.</troll>
+     <troll>gives %%% a vial of HIV.</troll>
+     <troll>gives %%% anal cancer and laxatives.</troll>
+     <troll>sews up %%%'s anus and gives them explosive diarrhoea.</troll>
+     <troll>stabs %%% in the anus with a hot spork</troll>
+     <troll>slaps %%% really hard with banana.</troll>
+     <troll>slaps %%% really hard with banana peel.</troll>
+     <troll>drugs %%% and %%%'s mother and forces them to sleep together naked.</troll>
+     <troll>shoves a large needle up %%%'s rectum.</troll>
+     <troll>sticks 100 tonnes of elephant excrement up %%%'s anus.</troll>
+     <troll>dyes %%% black then sends them to a KKK rally.</troll>
+     <troll>stabs %%% in the eyes with sharpened frozen banana.</troll>
+     <troll>slaps %%% really hard with %%%'s mother's dildo.</troll>
+     <troll>slaps %%% with a truck.</troll>
+     <troll>drugs %%% and sticks them in a hungry lions den naked.</troll>
+     <troll>makes %%% squeal like a little pig</troll>
+     <troll>grabs a Necronomicon and shoves it up %%%'s anus.</troll>
+     <troll>grabs a Quran book and shoves it up %%%'s anus.</troll>
+     <troll>buries %%% in elephant faecal matter.</troll>
+     <troll>buries %%% alive in human faecal matter.</troll>
+     <troll>drugs %%% and sends them to gay bar.</troll>
+     <troll>sends %%% to hell.</troll>
+     <troll>forces %%% to listen to 100 hours of Justin Bieber.</troll>
+     <troll>Slaps %%% with a pickle.</troll>
+     <troll>grabs a bible and shoves it up %%%'s anus.</troll>
+     <troll>grabs a Webster's unabridged dictionary and shoves it up %%%'s anus.</troll>
+     <troll>replaces all of %%%'s games with pewdiepie simulator.</troll>
+     <troll>replaces all of %%%'s music with Fart sounds.</troll>
+   </troll>
+   <limerick>
+     <limerick>There once was a fellow McSweeny @@ Who spilled some gin on his weenie @@ Just to be couth @@ He added vermouth @@ Then slipped his girlfriend a martini</limerick>
+     <limerick>There once was a man Robin Hood @@ Who lived in a Knottingham wood @@ He learned how to f**k @@ from old Friar Tuck @@ And made Marion whenever he could</limerick>
+     <limerick>There once was a fellow O'Doole @@ Who found little red spots on his tool @@ His Doctor a cynic @@ said Get out of me clinic, @@ And wipe off that lipstick you fool!</limerick>
+     <limerick>A pirate, history relates @@ Was scuffling with some of his mates @@ When he slipped on a cutlass @@ Which rendered him nutless @@ And practically useless on dates</limerick>
+     <limerick>There once was a woman named Jill @@ Who swallowed an exploding pill @@ They found her vagina @@ In North Carolina @@ And her tits in a tree in Brazil</limerick>
+     <limerick>There once was a plumber from Lee @@ Who was plumbing his girl by the sea @@ She said Stop your plumbing, @@ There's somebody coming! @@ Said the plumber still plumbing... It's me!</limerick>
+     <limerick>A right twisted wench from Caprees-ed @@ Orgasmed each time that she sneez-ed @@ To the druggist she went @@ And laid down her last cent @@ Said, "A barrel of snuff, if you pleas-ed."</limerick>
+     <limerick>On the moors Kelly walked in a daze @@ There she'd bark at the moon and the haze @@ Still her friends weren't concerned @@ For by now they had learned @@ Once a month she would go through this phase.</limerick>
+     <limerick>A randy marsupial named Reeves @@ Spent some time with the whores 'tween their knees @@ When they'd asked him for money @@ He'd say "Listen honey @@ A koala eats bushes and leaves."</limerick>
+     <limerick>Now down in the valley of Shneel @@ Lived a woman who loved to reveal @@ With her curtains well drawn @@ Standing bare as a fawn @@ She'd do this really neat trick with an eel</limerick>
+     <limerick>Now this right old man was a sick 'un @@ He had a dozen hen ripe for the pickin' @@ He'd chase 'em around @@ With his trousers pulled down @@ And he'd say "Whatsa matter, you chicken?"</limerick>
+     <limerick>A new farmer's helper named Kull @@ Accidentally was milking a bull @@ The farmer said, "Boy yer dumb, @@ You done milked the wrong one!" @@ Said the boy, "But me whole bucket's full."</limerick>
+     <limerick>Twas a crazy old man called O'Keef @@ Who caused local farmers much grief @@ To their cows he would run @@ Cut their legs off for fun @@ And say "Look, I've invented ground beef!"</limerick>
+     <limerick>There once was a man from Madrass @@ Whose balls were made out of brass @@ When he'd bang 'em together @@ They'd play stormy weather @@ And lightning would shoot out of his ass</limerick>
+     <limerick>There once was a man from Havana @@ Screwed a girl on a player piano @@ At the height of their fever @@ Her ass hit the lever @@ And Yes he has no banana...</limerick>
+     <limerick>There once was a man from East Kent @@ Whose tool was so long that it bent @@ To save her some trouble @@ He folded it double @@ And instead of coming...he went</limerick>
+     <limerick>There once was a man from Bonaire @@ Who was doing his wife on the stair @@ When the banister broke @@ He doubled his stroke @@ And finished her off in midair</limerick>
+     <limerick>On a knoll a young maiden named Molly @@ Her innocence lost through young folly @@ His name was Sing Chum @@ And too soon he did cum @@ And all he could say was "I'm solly!"</limerick>
+     <limerick>A bear taking a dump asked a rabbit @@ "Does shit stick to your fur as a habit?" @@ "Of course not," said the hare, @@ "It's really quite rare!" @@ So the bear wiped his ass with the rabbit.</limerick>
+     <limerick>There was a young tease from Mount Chesser @@ Who'd smile as the men would assess her @@ So flirtatious was she @@ Inviting them home to tea @@ Then allowing not one to undress her</limerick>
+     <limerick>To his friend, Ned said, rather blue, @@ "My wife Edith just told me we're through, @@ For she says I'm too fat." @@ And his friend told him that, @@ "You can't have your cake and Edith, too."</limerick>
+     <limerick>There once was a girl named Tristan @@ Whose beer that she ordered was was pissed in @@ She said "I don't think," @@ As she spit out her drink, @@ "On the menu that this one was listed."</limerick>
+     <limerick>Said a fool whose mind was quite miniscule @@ As his ignorance reached a new pinnacle @@ "I don't believe in astrology @@ It's my ideology @@ But I'm a Leo and Leo's are cynical.</limerick>
+     <limerick>I had me a wench from East Broint @@ Who bade me her skin to anoint @@ The girl had arthritis @@ And so I decided @@ She wouldn't mind one more stiff joint.</limerick>
+     <limerick>There once was a man from Bel Air @@ Who was doing his wife on the stair @@ But the banister broke @@ So he doubled his stroke @@ And finished her off in mid-air</limerick>
+     <limerick>There once was a barmaid named Gale @@ On whose breasts was the menu for ale @@ But since she was kind @@ For the sake of the blind @@ On her ass it was printed in Braille</limerick>
+     <limerick>There was a Young Man from Kent @@ Whose Rod was so long it bent. @@ So to save himself trouble @@ He bent it in double, @@ And instead of coming -- he went!</limerick>
+     <limerick>There once was a man from sprocket @@ Who went for a ride in a rocket @@ The rocket went bang @@ His balls went clang @@ And he found his dick in his pocket!</limerick>
+     <limerick>There once was a man from madras @@ Whose balls were made of brass @@ In stormy weather @@ They clang together @@ And sparks fly out of his ass!</limerick>
+     <limerick>There was a young lady named Claire @@ Who possessed a magnificent pair; @@ Or that's what I thought @@ 'Til I saw one get caught @@ On a thorn, and begin to lose air.</limerick>
+     <limerick>There was a young lady named Hitchin @@ Who was scratching her crotch in the kitchen. @@ Her mother said, "Rose, @@ It's the crabs, I suppose." @@ She said, "Yes, and the buggers are itchin'."</limerick>
+     <limerick>There once was a man from Nantucket @@ Whose thing was so long he could suck it. @@ He said, with a grin as he wiped off his chin, @@ "If my ear was a pussy, I'd fuck it!"</limerick>
+     <limerick>A strange young fellow from Leeds @@ Rashly swallowed a package of seeds. @@ Great tufts of fine grass @@ Sprouted out of his ass @@ And his balls were covered with weeds.</limerick>
+     <limerick>There once was a girl named McGill @@ Who used dynamite sticks for a thrill @@ They found her vagina @@ In South Carolina @@ And bits of her tits in Brazil</limerick>
+     <limerick>There was a young man from Brighton @@ Who thought he'd at last found a tight 'un. @@ He said, "Oh my love, @@ It fits like a glove." @@ Said she, "But you're not in the right 'un." </limerick>
+     <limerick>Did you hear about young Henry Lockett? @@ He was blown down the street by a rocket. @@ The force of the blast @@ Blew his balls up his ass, @@ And his pecker was found in his pocket.</limerick>
+     <limerick>A pansy up in Khartoum, @@ took a lesbian up to his room. @@ They argued all night, @@ as to who had the right @@ to do what, with which and to whom.</limerick>
+     <limerick>There was a young girl of Cape Cod @@ Who thought babies were fashioned by God, @@ But 'twas not the Almighty @@ Who hiked up her nightie - @@ 'Twas Roger, the lodger, by God!</limerick>
+     <limerick>There was a young maid from Madras @@ Who had a magnificent ass; @@ Not rounded and pink, @@ As you probably think - @@ It was grey, had long ears, and ate grass.</limerick>
+     <limerick>There was a young sailor named Bates @@ Who danced the fandango on skates. @@ But a fall on his cutlass @@ Has rendered him nutless, @@ And practically useless on dates.</limerick>
+     <limerick>A mathematician named Hall @@ Has a hexahedronical ball, @@ And the cube of its weight @@ Times his pecker, plus eight, @@ Is his phone number - give him a call.</limerick>
+     <limerick>There was a young girl named Ann Heuser @@ Who swore that no man could surprise her.  @@ But Pabst took a chance, @@ Found a Schlitz in her pants, @@ And now she is sadder Budweiser.</limerick>
+     <limerick>There was an old Count of Swoboda @@ Who would not pay a whore what he owed her. @@ So with great savoir-faire @@ She stood on a chair, @@ And pissed in his whiskey-and-soda.</limerick>
+     <limerick>On a maiden a man once begat @@ Cute triplets named Nat, Tat and Pat; @@ 'Twas fun in the breeding @@ But hell in the feeding: @@ She hadn't a spare tit for Tat.</limerick>
+     <limerick>There was a young tar from the sea @@ Who screwed a baboon in a tree. @@ The results were most horrid - @@ All ass and no forehead, @@ Four balls and a purple goatee.</limerick>
+     <limerick>There was a young lady named White @@ Found herself in a terrible plight: @@ A mucker named Tucker @@ Had struck her, the fucker, @@ The bugger, the bastard, the shite!</limerick>
+     <limerick>Sobbed the wife of a worrisome veep, @@ "I'm so tired and worn I could weep. @@ It's my husband's demand @@ For a tit in each hand - @@ And the bastard walks 'round in his sleep!"</limerick>
+     <limerick>A thrifty old man named McEwen @@ Inquired, "Why bother with screwing? @@ It's safer and cleaner @@ To finger your weiner, @@ And besides you can see what you're doing." </limerick>
+     <limerick>There was a young lady of Worcester @@ Who complained that so many men goosed her. @@ So over her caper @@ She laid some sandpaper @@ Now they goose her much less than they used ter.</limerick>
+     <limerick>A steward who worked on a clipper @@ Was quite a bit of a nipper; @@ He plugged up his ass @@ With fragments of glass @@ And circumcised the skipper.</limerick>
+	 <limerick>There was a young lady named Hilda @@ Who went driving one night with a builda. @@ He said that he should @@ That he could and he would, @@ And he did and it pretty near killda.</limerick>
+     <limerick>I have been on dozens of larks;@@I like it indoors, not in parks.@@You feel more at ease,@@Your ass doesn't freeze;@@And strollers don't make snide remarks.</limerick>
+     <limerick>A broken-down lecher named Tupps@@Was heard to confess in his cups:@@"The height of my folly@@Was diddling a collie -@@But I got a nice price for the pups."</limerick>
+     <limerick>There was a young fellow named Lancelot@@Whom his neighbors all looked on askance a lot.@@Whenever he'd pass@@A presentable lass,@@The front of his pants would advance a lot.</limerick>
+     <limerick>There was a young harlot from Kew@@Who filled her vagina with glue.@@She said with a grin,@@"If they pay to get in,@@They'll pay to get out of it, too."</limerick>
+     <limerick>There was a young fellow named Skinner@@Who took a young lady to dinner.@@They started to dine@@At a quarter past nine -@@And at twenty to ten it was in 'er.@@The dinner? No, Skinner.@@Skinner was in 'er BEFORE dinner.</limerick>
+     <limerick>There was a young fellow named Tupper@@Who took a young lady to supper.@@They sat down to dine@@At a quarter to nine,@@And at twenty to ten it was up 'er.@@Not the supper - not Tupper - @@it was some son-of-a-bitch named Skinner!@@*****@@@@There was a young plumber named Lee@@Who plumbed his girl down by the sea;@@Said the lady, "Stop plumbing!@@I hear someone coming."@@Said the plumber, still plumbing, "That's me." </limerick>
+     <limerick>A newlywed couple from Goshen@@Spent their honeymoon sailing the ocean. @@In twenty-eight days@@They screwed eighty ways -@@Imagine such fucking devotion!</limerick>
+     <limerick>There once was a nervous young Finn,@@Who had barely begun to get in@@To a lady he knew,@@When her husband said "Boo!"@@And he damned near jumped out of her skin.</limerick>
+     <limerick>Said Miguel to the gringo, "Senor,@@Eef I open thees here closet door,@@An' dee lady eenside,@@Ees my leetle lost bride,@@Then I theenk I mus' shoot you some more."</limerick>
+     <limerick>There once was a hermit named Dave@@Who Kept a dead whore in his cave@@She was missing a tit@@She smelled like shit@@But think of the money he saved </limerick>
+     <limerick>There was a young sailor from Brighton@@Who remarked to his girl, "You're a tight one."@@She replied, "`Pon my soul,@@You're in the wrong hole;@@There's plenty of room in the right one."</limerick>
+     <limerick>He was just an AOL lamer,@@Trying his hardest to become a flamer.@@With keyboard in hand,@@He took on the land.@@Then his mom killed him, ya blame 'er ?</limerick>
+     <limerick>A wanton young lady from Wimley@@Reproached for not acting quite primly@@Said, "Heavens above!@@I know sex isn't love,@@But it's such an entrancing facsimile."</limerick>
+     <limerick>A guy with his girl in a Fiat@@Said, "Where on earth is my key at?"@@As he started to seek @@She let out a shriek @@"THAT'S not where it's likely to be at!"</limerick>
+     <limerick>In days of old,@@When knights were bold@@And women weren't particular@@They used to stand@@Against the wall@@And do it perpendicular !</limerick>
+     <limerick>Clinton says"I love Hollywood!@@I've helped every star that I could!@@So let's have a big hand@@For Chief Justice Streisand@@Who, by the way, gives head real good!"</limerick>
+     <limerick>There once was a bishop from Clyde@@Who fell in the privy and died@@His brother the vicar@@did also but quicker@@and now they're interred side by side</limerick>
+     <limerick>The old archeologist Trostle,@@Found a most wonderous fossil.@@He declared-by the way it did bend @@and the knob on the end@@twas the penis of Paul the Apostle</limerick>
+     <limerick>The codfish lays ten thousand eggs,@@The homely hen lays one. @@The codfish never cackles,@@To tell you what she's done.@@And so we scorn the codfish, @@While the humble hen we prize.@@Which only goes to show you, @@That it pays to advertise. </limerick>
+     <limerick>There was an old woman from Leeds@@Who swallowed a packet of seeds@@In less than an hour@@Her tits were a-flower@@And her arse was covered with weeds</limerick>
+     <limerick>A naughty old lady of Spain@@Decided she'd have to abstain@@But plugging the entry@@That favoured the gentry@@Excited the lady again!</limerick>
+     <limerick>There was a young man named Snodrass,@@whose balls were made out of brass.@@He knocked them together@@and sang "Stormy Weather",@@while lightning shot out of his ass.</limerick>
+     <limerick>There was a young lady from Nizes@@whose breasts were two different sizes.@@One was so small@@it was nothing at all,@@but the other was huge and won prizes.</limerick>
+     <limerick>There once was a man from Nantucket@@With a dick so long he could suck it.@@While doing his wife,@@he folded twice,@@so that when he was coming, he went.</limerick>
+     <limerick>There was a young lady of Natchez@@Who chanced to be born with two snatches,@@And she often said, "Shit!@@Why, I'd give either tit@@For a man with equipment that matches."</limerick>
+     <limerick>There was an old couple named Kelly@@Who went through life belly to belly@@For it seems in their haste,@@They used library paste@@Instead of petroleum jelly</limerick>
+     <limerick>There was a man from Boston@@who bought himself an Austin.@@There was room for his ass@@and a gallon of gas@@but his balls hung out and he lost them.</limerick>
+     <limerick>There was a man from Thames@@who delighted in foolhardy games.@@He lit a match to his girlfriends snatch@@and laughed as she pissed in the flames.</limerick>
+     <limerick>There was a man from Khartoum@@who took a lesbian up to his room.@@They argued all night@@over who had the right@@to do what, for how much and to whom.</limerick>
+     <limerick>There once were three ladies of Birmingham.@@Have you heard of the scandal concerning 'em?@@They lifted the frock@@and played with the cock@@of the bishop--while he was confirming 'em!@@Now the biship was nobody's fool.@@(He was raised in a good public school!)@@So he lowered his britches@@and buggered those bitches@@with his ten inch Episcopal tool!@@Then a woman who was in the third pew@@said something that made the biship turn blue:@@"The vicar is quicker@@and slicker and thicker@@and longer and stronger than you!"</limerick>
+     <limerick>As I was walking down the stairs, @@I met a man who wasn`t there.@@He wasn`t there again today,@@Oh how I wish he`d go away!</limerick>
+     <limerick>Old Mother Hubbard went to the cupboard,@@to get her poor dog a bone.@@But when she bent over,@@old Rover drove her,@@Cause Rover had a bone of his own.</limerick>
+     <limerick>There once was a man from Racine,@@Who invented a screwing machine.@@Concave or convex,@@It would do either sex,@@But oh what a bastard to clean.</limerick>
+     <limerick>The sea captain's tender young bride@@Fell into the bay at low tide,@@You could tell by her squeals,@@That some of the eels,@@Had discovered a dark place to hide</limerick>
+     <limerick>There once was a pirate named Gates@@Who thought he could rumba on skates@@He fell on his cutlass@@And now he is nutless@@And practically worthless on dates.</limerick>
+     <limerick>There once was a lass from Madrass@@Who had a magnificent ass@@Not rounded and pink as you probably think@@It was grey, had long ears, and ate grass</limerick>
+     <limerick>Nick the prick had a forty ft. dick,@@He showed it to the lady next door.@@She thought it was a snake,@@And hit it with a rake,@@And now it's only four ft.four.</limerick>
+     <limerick>There was a young man named Watt@@Who took a young girl on his Yacht@@Too lazy to rape her@@He made darts of brown paper@@Which he languidly threw at her twat</limerick>
+     <limerick>There was a young maid from Bewd@@Who attended a show in the nude@@A man in the front@@said "I think I smell cunt!"@@Just like that, right out loud, fucking rude</limerick>
+     <limerick>There was an old maid from Azores@@Whose cunt was all covered in sores@@The dogs on the street@@Used to sniff the green meat@@That hung in festoons from her drawers</limerick>
+     <limerick>Jack and Jill went up the hill@@to have a little fun.@@But stupid Jill forgot her pill@@and now they have a son.</limerick>
+     <limerick>There once was a girl from St. Paul,@@Who wore a newspaper dress to a ball.@@The dress caught on fire@@And burnt the entire@@Front page, sports section and all!</limerick>
+     <limerick>A young escape artist by the name of Sweeny.@@His girl was a bit of a meany.@@At the hatch of her snach.@@She had a catch that would latch.@@And she could only be fucked by Houdini.</limerick>
+     <limerick>There was a young dentist Malone@@who had a charming girl patient alone.@@But in his depravity@@he filled the wrong cavity,@@God, how his practice has grown!</limerick>
+     <limerick>From a crypt in the church of St. Giles,@@Came a scream that resounded for miles!! @@"My goodness gracious!" Said brother Ignatius.@@"I forgot that your lordship has piles." </limerick>
+     <limerick>A Man's occupation @@is to shove his Cockulation@@up a women's Ventalation@@to increase the popultation@@of the human Generation@@I got this information @@from a book of education@@for a free Demonstration@@Lie Down.</limerick>
+     <limerick>A remarkable fellow named Jones, @@Could reduce any maiden to moans, @@By a technical knowlege, @@Acquired in college, @@Of fourteen erogenous zones.</limerick>
+     <limerick>The once was a woman named Louise@@Who's cunt hairs hung down to her knees@@The crabs in her twat @@Would tie them in knots@@And make a flying trapeze.</limerick>
+     <limerick>Jack and Jill Went up the hill@@Both of them had a quarter@@Jill came down with fifty cents@@And Jack came down with a boner!</limerick>
+     <limerick>There once was a man from Vienna@@Who liked to play the piana@@His fingers slipped@@And his zipper unzipped@@And out popped a hairy bannana</limerick>
+     <limerick>There once was a rug-weaver from Karthoum,@@Who used to carry young boys to his room.@@In the height of his fever,@@This Suitenese weaver.@@Is what we call a fruit-of-the-loom.</limerick>
+     <limerick>There once was a girl named Hortense.@@The size of her breasts was immense.@@One day playing soccer@@Out popped her left knocker@@And she kicked it right over the fence.</limerick>
+     <limerick>There was an old man from Rangoon@@Whose farts could be heard on the moon@@When least you'd expect 'em@@They'd roar from his rectum@@With the force of a Burma typhoon!</limerick>
+     <limerick>There once was a man from Balan@@Who thought stroking his penis was grand@@Then he stared with distaste@@At the gelatinous paste@@That he found in the palm of his hand</limerick>
+     <limerick>There was a young man from Saint Johns@@Who wanted to bugger some swans@@"You can't" said the porter@@"Instead take my daughter,@@The swans are reserved for the dons."</limerick>
+     <limerick>There once was a woman from Purdue@@Who had nothing better to do@@So she sat on the stairs@@Counted cunt hairs@@Four thousand three hundred and two!</limerick>
+     <limerick>A lady while dining at Crewe@@Found an elephant's whang in her stew.@@Said the waiter, "Don't shout,@@And don't wave it about,@@Or the others will all want one too."</limerick>
+     <limerick>There was an old uncle named Sid,@@Who would do as his neices would bid,@@Read a story 'fore bed,@@By which author he said,@@Uncle Remus they cried so he did!</limerick>
+     <limerick>There was a young girl from Hong Kong@@Who dreamt of a great whopping dong@@Until her ambition@@Came to fruition@@She practiced with cucumbers long</limerick>
+     <limerick>There once was a man named Mcsweeny@@Who spilled some gin on his weenie@@Just to be Couth@@He added some Vermouth@@And slipped his chick a Martini! </limerick>
+     <limerick>A myopic tree surgeon named Lee@@Trapped an agile young wench in a tree@@Said she "Move your whopper, you careless limb lopper,@@"That's a moss-covered knot-hole, NOT ME!"</limerick>
+     <limerick>The Pious Mahatma Gandhi@@Awoke one morn with a dandy@@He exclaimed to an aide,@@Go get me a maid@@Or a goat, or anything handy </limerick>
+     <limerick>While browsing museums in France,@@I gave their exhibits a glance.@@My kindly advise@@Is those paintings are nice,@@But the statues are needing some pants. </limerick>
+     <limerick>So when watching the Frugal Gourmet@@Did you notice he seemed to be gay?@@And his favorite dish@@Wasn't onions and fish!@@It was boys, Chardonnay and Ben Gay. </limerick>
+     <limerick>There was once a blonde whore@@Who would wear clothes no more.@@She did a cartwheel,@@But slipped on a peel@@...To this day she's still stuck to the floor.</limerick>
+   </limerick>
+   <Owners OwnerName="DrZed"></Owners>
+   <Owners OwnerName="KarelMikie3"></Owners>
+</SlayerBot>

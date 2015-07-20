@@ -1,4 +1,4 @@
-package meh.SkypeBot;
+package Slayer.SkypeBot;
 
 import com.skype.Chat;
 import com.skype.SkypeException;
@@ -26,7 +26,7 @@ public class XMLHelper {
     }
 
     public void process (Chat chat, String command, String sender) throws SkypeException {
-        boolean privileged = canUse(sender);
+        boolean privileged = !lock || isOwner(sender);
         command = command.replaceFirst("!", "");
         if (command.equalsIgnoreCase("help")) chat.send(commandList());
         else if (privileged && command.equalsIgnoreCase("unlock")) {lock = false; chat.send("Bot is unlocked!");}
@@ -91,7 +91,7 @@ public class XMLHelper {
             int num = rand.nextInt(doc.getElementsByTagName(type).getLength());
             String message = doc.getElementsByTagName(type).item(num).getTextContent();
             message = message.replaceAll("%%%", target);
-            if (type.equalsIgnoreCase("troll")) {message = "BOT : " + message; chat.send(message);}
+            if (type.equalsIgnoreCase("troll")) {message = "/me " + message; chat.send(message);}
             else if (type.equalsIgnoreCase("joke"))chat.send(message);
             else if (type.equalsIgnoreCase("limerick")) {
                 String[] LimerickParts = message.split("@@");
@@ -100,11 +100,6 @@ public class XMLHelper {
                 }
             }
         } catch (Exception e) {e.printStackTrace(); chat.send("no SlayerBot.xml found!");}
-    }
-
-    public boolean canUse(String user) {
-        if (lock) return isOwner(user);
-        else return true;
     }
 
     public boolean isOwner (String User) {

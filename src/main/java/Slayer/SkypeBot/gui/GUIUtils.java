@@ -1,4 +1,4 @@
-package meh.SkypeBot.gui;
+package Slayer.SkypeBot.gui;
 
 import javafx.application.Platform;
 

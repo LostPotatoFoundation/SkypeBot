@@ -1,4 +1,4 @@
-package meh.SkypeBot.listeners;
+package Slayer.SkypeBot.listeners;
 
 import com.skype.ChatMessage;
 import com.skype.ChatMessageListener;
