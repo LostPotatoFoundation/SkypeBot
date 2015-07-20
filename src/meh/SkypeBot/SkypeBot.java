@@ -7,31 +7,23 @@ import com.skype.Skype;
 import com.skype.SkypeException;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.TextArea;
-import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import meh.SkypeBot.commands.SkypeCommand;
 import meh.SkypeBot.listeners.SkypeListener;
 import org.reflections.Reflections;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Set;
+import java.util.*;
 
 public class SkypeBot extends Application {
     public static HashMap<String, SkypeCommand> commands = new HashMap<>();
     private static ArrayList<SkypeListener> chatMessageListeners = new ArrayList<>();
     public static SkypeBot bot;
     public Console console;
+    public static XMLHelper xmlHelper;
 
     public static void main(String[] args) throws SkypeException{
         registerCommands();
-
         registerMessageListeners();
-
         launch(args);
     }
 
@@ -46,6 +38,8 @@ public class SkypeBot extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("Skype Bot");
         primaryStage.show();
+        xmlHelper = new XMLHelper();
+        xmlHelper.init();
     }
 
     @Override
@@ -86,4 +80,5 @@ public class SkypeBot extends Application {
             }
         }
     }
+
 }
