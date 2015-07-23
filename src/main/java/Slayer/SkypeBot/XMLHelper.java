@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Random;
 
 public class XMLHelper {
-    public boolean lock;
     public Random rand = new Random();
     File inputFile;
     DocumentBuilderFactory dbf;
@@ -25,31 +24,14 @@ public class XMLHelper {
         dbf = DocumentBuilderFactory.newInstance();
     }
 
-    public void process (Chat chat, String command, String sender) throws SkypeException {
-        boolean privileged = !lock || isOwner(sender);
-        command = command.replaceFirst("!", "");
-        if (command.equalsIgnoreCase("help")) chat.send(commandList());
-        else if (privileged && command.equalsIgnoreCase("unlock")) {lock = false; chat.send("Bot is unlocked!");}
-        else if (privileged && command.equalsIgnoreCase("lock")) {lock = true; chat.send("Bot is locked!");}
-        else if (privileged && command.equalsIgnoreCase("quit")) {System.exit(0);}
-        //spacer
-        else if (command.equalsIgnoreCase("rl")) {randomFunny(chat, sender, "limerick");}
-        else if (command.equalsIgnoreCase("rj")) {randomFunny(chat, sender, "joke");}
-        else if (command.startsWith("say")) {chat.send(command.replaceFirst("say ", ""));}
-        else if (command.startsWith("rt")) {
-            String target = command.replace("rt", "").trim();
-            if (target.equals("")) target = sender;
-            randomFunny(chat, target, "troll");
-        }
-        else parseFromSaved(chat, command);
-    }
-
-    public String commandList () {
+    public String getAttr (String element, String Attr) {
+        String tmp = "";
+        if (element.equalsIgnoreCase("commands")) tmp = "help, quit, lock, unlock, rl, rt, rj, owners, version, ";
         try {
             DocumentBuilder dB = dbf.newDocumentBuilder();
             Document doc = dB.parse(inputFile);
             doc.getDocumentElement().normalize();
-            NodeList nList = doc.getElementsByTagName("command");
+            NodeList nList = doc.getElementsByTagName(element);
 
             List<String> message = new ArrayList<>();
 
@@ -57,10 +39,10 @@ public class XMLHelper {
                 Node nNode = nList.item(temp);
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
-                    message.add(eElement.getAttribute("commandName"));
+                    message.add(eElement.getAttribute(Attr));
                 }
             }
-            return "help, quit, lock, unlock, rl, rt, rj, " + message.toString().replace("[","").replace("]", "");
+            return tmp + message.toString().replace("[","").replace("]", "");
         } catch (Exception e) {e.printStackTrace(); return "help, quit, lock, unlock, meh, joke, and No SlayerBot.xml found.";}
     }
 

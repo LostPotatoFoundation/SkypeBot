@@ -26,7 +26,7 @@ public class CommandListener implements SkypeListener {
                     SkypeBot.commands.containsKey(command);
                     SkypeBot.commands.get(command).execute(chatMessage.getChat(), args);
                 } catch (Exception ingored) {
-                    SkypeBot.xmlHelper.process(chatMessage.getChat(), chatMessage.getContent(), chatMessage.getSenderDisplayName());
+                    SkypeBot.msgHandler.processCommand(chatMessage.getChat(), chatMessage.getContent(), chatMessage.getSenderDisplayName());
                 }
             }
         } catch (Exception e) {

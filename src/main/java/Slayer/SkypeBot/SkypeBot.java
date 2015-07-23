@@ -1,18 +1,20 @@
 package Slayer.SkypeBot;
 
+import Slayer.SkypeBot.commands.MessageHandler;
 import Slayer.SkypeBot.commands.SkypeCommand;
-import javafx.scene.Group;
-import Slayer.SkypeBot.gui.*;
-
+import Slayer.SkypeBot.gui.Console;
+import Slayer.SkypeBot.listeners.SkypeListener;
 import com.skype.Skype;
 import com.skype.SkypeException;
 import javafx.application.Application;
+import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import Slayer.SkypeBot.listeners.SkypeListener;
 import org.reflections.Reflections;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
 
 public class SkypeBot extends Application {
     public static HashMap<String, SkypeCommand> commands = new HashMap<>();
@@ -20,6 +22,8 @@ public class SkypeBot extends Application {
     public static SkypeBot bot;
     public Console console;
     public static XMLHelper xmlHelper;
+    public boolean lock = false;
+    public static MessageHandler msgHandler;
 
     public static void main(String[] args) {
         registerCommands();
@@ -40,6 +44,7 @@ public class SkypeBot extends Application {
         primaryStage.show();
         xmlHelper = new XMLHelper();
         xmlHelper.init();
+        msgHandler = new MessageHandler();
     }
 
     @Override
@@ -73,7 +78,9 @@ public class SkypeBot extends Application {
                 SkypeListener skypeListener = listenClass.newInstance();
                 Skype.addChatMessageListener(skypeListener);
                 chatMessageListeners.add(skypeListener);
-
+                for (Thread t : Thread.getAllStackTraces().keySet())
+                    if (t.getName().equalsIgnoreCase("thread.skype"))
+                        System.out.println(t);
                 System.out.println("Registered listener: " + skypeListener);
             } catch (SkypeException | InstantiationException | IllegalAccessException e) {
                 e.printStackTrace();
