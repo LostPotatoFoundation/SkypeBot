@@ -1,4 +1,4 @@
-package Slayer.SkypeBot;
+package Slayer.SkypeBot.Handlers;
 
 import com.skype.Chat;
 import com.skype.SkypeException;
@@ -24,9 +24,9 @@ public class XMLHelper {
         dbf = DocumentBuilderFactory.newInstance();
     }
 
-    public String getAttr (String element, String Attr) {
+    public String getStringWithAttr (String element, String Attr) {
         String tmp = "";
-        if (element.equalsIgnoreCase("commands")) tmp = "help, quit, lock, unlock, rl, rt, rj, owners, version, ";
+        if (element.equalsIgnoreCase("command")) tmp = "help, quit, lock, unlock, rl, rt, rj, owners, version, ";
         try {
             DocumentBuilder dB = dbf.newDocumentBuilder();
             Document doc = dB.parse(inputFile);
@@ -43,7 +43,27 @@ public class XMLHelper {
                 }
             }
             return tmp + message.toString().replace("[","").replace("]", "");
-        } catch (Exception e) {e.printStackTrace(); return "help, quit, lock, unlock, meh, joke, and No SlayerBot.xml found.";}
+        } catch (Exception e) {e.printStackTrace(); return "No SlayerBot.xml found.";}
+    }
+
+    public List<String> getStringArrWithAttr (String element, String Attr) {
+        try {
+            DocumentBuilder dB = dbf.newDocumentBuilder();
+            Document doc = dB.parse(inputFile);
+            doc.getDocumentElement().normalize();
+            NodeList nList = doc.getElementsByTagName(element);
+
+            List<String> message = new ArrayList<>();
+
+            for (int temp = 0; temp < nList.getLength(); temp++) {
+                Node nNode = nList.item(temp);
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                    Element eElement = (Element) nNode;
+                    message.add(eElement.getAttribute(Attr));
+                }
+            }
+            return message;
+        } catch (Exception e) {e.printStackTrace(); return null;}
     }
 
     public void parseFromSaved(Chat chat, String command) throws SkypeException {
@@ -66,21 +86,16 @@ public class XMLHelper {
 
     public void randomFunny(Chat chat, String target, String type) throws SkypeException {
         try {
+//            if (isOwner(target)) return;
             DocumentBuilder dB = dbf.newDocumentBuilder();
             Document doc = dB.parse(inputFile);
             doc.getDocumentElement().normalize();
 
             int num = rand.nextInt(doc.getElementsByTagName(type).getLength());
             String message = doc.getElementsByTagName(type).item(num).getTextContent();
-            message = message.replaceAll("%%%", target);
-            if (type.equalsIgnoreCase("troll")) {message = "/me " + message; chat.send(message);}
-            else if (type.equalsIgnoreCase("joke"))chat.send(message);
-            else if (type.equalsIgnoreCase("limerick")) {
-                String[] LimerickParts = message.split("@@");
-                for (String part : LimerickParts) {
-                    chat.send(part.trim());
-                }
-            }
+            message = message.replaceAll("%%%", target).replaceAll("@@", System.lineSeparator());
+            if (type.equalsIgnoreCase("troll")) message = "/me " + message;
+            chat.send(message);
         } catch (Exception e) {e.printStackTrace(); chat.send("no SlayerBot.xml found!");}
     }
 
@@ -100,4 +115,36 @@ public class XMLHelper {
             return false;
         } catch (Exception e) {e.printStackTrace(); return false;}
     }
+/*
+    private String testingMethod1(String string) throws SkypeException {
+        List<String> args = getStringArrWithAttr("args", "arg");
+        for (String arg : args) {
+            if (string.contains(arg)) {
+                procString(string, arg);
+            }
+        }
+        return "";
+    }
+
+
+    public String procString(String string, String type) throws SkypeException {
+        try {
+            DocumentBuilder dB = dbf.newDocumentBuilder();
+            Document doc = dB.parse(inputFile);
+            doc.getDocumentElement().normalize();
+
+            int num = rand.nextInt(doc.getElementsByTagName(type).getLength());
+            String message = doc.getElementsByTagName(type).item(num).getTextContent();
+            string = string.replaceAll(message, message);
+            if (type.equalsIgnoreCase("troll")) {message = "/me " + message; chat.send(message);}
+            else if (type.equalsIgnoreCase("joke"))chat.send(message);
+            else if (type.equalsIgnoreCase("limerick")) {
+                String[] LimerickParts = message.split("@@");
+                for (String part : LimerickParts) {
+                    chat.send(part.trim());
+                }
+            }
+        } catch (Exception e) {e.printStackTrace(); chat.send("no SlayerBot.xml found!");}
+    }*/
+
 }

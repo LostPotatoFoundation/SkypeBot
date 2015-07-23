@@ -1,7 +1,7 @@
 package Slayer.SkypeBot;
 
-import Slayer.SkypeBot.commands.MessageHandler;
-import Slayer.SkypeBot.commands.SkypeCommand;
+import Slayer.SkypeBot.Handlers.MessageHandler;
+import Slayer.SkypeBot.Handlers.XMLHelper;
 import Slayer.SkypeBot.gui.Console;
 import Slayer.SkypeBot.listeners.SkypeListener;
 import com.skype.Skype;
@@ -13,11 +13,9 @@ import javafx.stage.Stage;
 import org.reflections.Reflections;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Set;
 
 public class SkypeBot extends Application {
-    public static HashMap<String, SkypeCommand> commands = new HashMap<>();
     private static ArrayList<SkypeListener> chatMessageListeners = new ArrayList<>();
     public static SkypeBot bot;
     public Console console;
@@ -26,7 +24,6 @@ public class SkypeBot extends Application {
     public static MessageHandler msgHandler;
 
     public static void main(String[] args) {
-        registerCommands();
         registerMessageListeners();
         launch(args);
     }
@@ -51,22 +48,6 @@ public class SkypeBot extends Application {
     public void stop() throws Exception {
         chatMessageListeners.forEach(Skype::removeChatMessageListener);
         chatMessageListeners.forEach(SkypeListener::stop);
-    }
-
-    private static void registerCommands(){
-        Reflections commandsR = new Reflections("Slayer.SkypeBot.commands");
-        Set<Class<? extends SkypeCommand>> commandsS =  commandsR.getSubTypesOf(SkypeCommand.class);
-
-        for(Class<? extends SkypeCommand> commandClass : commandsS){
-            try {
-                SkypeCommand skypeCommand = commandClass.newInstance();
-                commands.put(skypeCommand.getName(), skypeCommand);
-
-                System.out.println("Registered command: " + skypeCommand);
-            } catch (InstantiationException | IllegalAccessException e) {
-                e.printStackTrace();
-            }
-        }
     }
 
     private static void registerMessageListeners(){
