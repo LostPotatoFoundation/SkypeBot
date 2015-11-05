@@ -1,7 +1,8 @@
 package Slayer.SkypeBot;
 
+import Configuration.HxCConfig;
 import Slayer.SkypeBot.Handlers.MessageHandler;
-import Slayer.SkypeBot.Handlers.XMLHelper;
+import Slayer.SkypeBot.Handlers.Helper;
 import Slayer.SkypeBot.gui.Console;
 import Slayer.SkypeBot.listeners.SkypeListener;
 import com.skype.Skype;
@@ -16,12 +17,14 @@ import java.util.ArrayList;
 import java.util.Set;
 
 public class SkypeBot extends Application {
+    public static String VERSION = "v1.1.0";
     private static ArrayList<SkypeListener> chatMessageListeners = new ArrayList<>();
     public static SkypeBot bot;
     public Console console;
-    public static XMLHelper xmlHelper;
+    public static Helper helper;
     public boolean lock = false;
     public static MessageHandler msgHandler;
+    public static HxCConfig cfg = new HxCConfig();
 
     public static void main(String[] args) {
         registerMessageListeners();
@@ -39,8 +42,8 @@ public class SkypeBot extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("Skype Bot");
         primaryStage.show();
-        xmlHelper = new XMLHelper();
-        xmlHelper.init();
+        helper = new Helper();
+        helper.init();
         msgHandler = new MessageHandler();
     }
 
@@ -59,9 +62,6 @@ public class SkypeBot extends Application {
                 SkypeListener skypeListener = listenClass.newInstance();
                 Skype.addChatMessageListener(skypeListener);
                 chatMessageListeners.add(skypeListener);
-                for (Thread t : Thread.getAllStackTraces().keySet())
-                    if (t.getName().equalsIgnoreCase("thread.skype"))
-                        System.out.println(t);
                 System.out.println("Registered listener: " + skypeListener);
             } catch (SkypeException | InstantiationException | IllegalAccessException e) {
                 e.printStackTrace();
