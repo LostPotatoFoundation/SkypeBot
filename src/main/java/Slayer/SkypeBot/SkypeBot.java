@@ -1,8 +1,8 @@
 package Slayer.SkypeBot;
 
 import Configuration.HxCConfig;
-import Slayer.SkypeBot.Handlers.MessageHandler;
 import Slayer.SkypeBot.Handlers.Helper;
+import Slayer.SkypeBot.Handlers.MessageHandler;
 import Slayer.SkypeBot.gui.Console;
 import Slayer.SkypeBot.listeners.SkypeListener;
 import com.skype.Skype;
@@ -13,6 +13,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.reflections.Reflections;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Set;
 
@@ -25,6 +26,7 @@ public class SkypeBot extends Application {
     public boolean lock = false;
     public static MessageHandler msgHandler;
     public static HxCConfig cfg = new HxCConfig();
+    public static final File config = new File("SlayerBot.cfg");
 
     public static void main(String[] args) {
         registerMessageListeners();

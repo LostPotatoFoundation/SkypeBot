@@ -1,7 +1,6 @@
 package Slayer.SkypeBot.Handlers;
 
 import Configuration.Config;
-import Slayer.SkypeBot.SkypeBot;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -15,9 +14,7 @@ public class Configurations {
     public static LinkedHashMap<String, String> commands = new LinkedHashMap<>();
     
     static {
-        commands.put("creator", "The creator of this skype bot is, DrZed/KeldonSlayer/?????????");
-        commands.put("version", "The version of this bot is : " + SkypeBot.VERSION);
-        commands.put("owners", "The owners are : " + Helper.getStringFromSList(owners));
+        commands.put("creator", "The creator of this skype bot is, DrZed/KeldonSlayer");
 
         jokes.add("A woman gets on a bus with her baby. The bus driver says: ''Ugh, that's the ugliest baby I've ever seen!'' The woman walks to the rear of the bus and sits down, fuming. She says to a man next to her: ''The driver just insulted me!'' The man says: ''You go up there and tell him off. Go on, I'll hold your monkey for you.''");
         jokes.add("''I went to the zoo the other day, there was only one dog in it, it was a shitzu.''");
@@ -284,6 +281,17 @@ public class Configurations {
         limericks.add("While browsing museums in France,@@I gave their exhibits a glance.@@My kindly advise@@Is those paintings are nice,@@But the statues are needing some pants. ");
         limericks.add("So when watching the Frugal Gourmet@@Did you notice he seemed to be gay?@@And his favorite dish@@Wasn't onions and fish!@@It was boys, Chardonnay and Ben Gay. ");
         limericks.add("There was once a blonde whore@@Who would wear clothes no more.@@She did a cartwheel,@@But slipped on a peel@@...To this day she's still stuck to the floor.");
+        limericks.add("There was a young girl of Cape Cod@@Who thought babies were fashioned by God@@But it was not the Almighty@@Who lifted her nightie@@It was Roger the lodger, that sod!");
+        limericks.add("There was a young man of Cape Horn@@Who wished he had never been born@@And he wouldn’t have been@@If his father had seen@@That the end of the rubber was torn.");
+        limericks.add("There was a young chap from out yonder@@Who buggered a big anaconda@@He regretted this crime@@For the rest of his time@@While the reptile grew fonder and fonder.");
+        limericks.add("I once knew a girl from Wheeling,@@Who had a particular feeling,@@When she laid on her back@@and tickled her crack,@@she pisses all over the ceiling");
+        limericks.add("There once was a man from china@@Who wanted to have a vagina@@So he sat on a rock@@And cut off his cock@@And now he’s got a manjina.");
+        limericks.add("Tired of her husband’s great mass,@@newly wed stuffed her vagina with glass.@@Prick of her hubby@@is now short and stubby.@@For wife, she can piss through her ass.");
+        limericks.add("There was a girl from Sydney.@@She could take it right up to her kedney.@@But a guy from Qubeck,@@shoved it up to her neck.@@He had a long one, didn’t he?");
+        limericks.add("There once was a Man named Obama.@@Who ate a really nasty vagina@@But the Whore that he ate,@@had syphillis on her taint,@@And now he is the President of the United States");
+        limericks.add("There once was a man named Osama;@@Who could not hide from the bombs of Obama;@@Till one day@@when seals came to play;@@he then cried to his mama");
+        limericks.add("Mary had a little sheep,@@with the sheep she did sleep,@@the sheep turned out to be a Ram,@@Mary had a little lamb");
+        limericks.add("There was a young lady from Neath,@@Who circumcised men with her teeth,@@It wasn’t for money,@@Or trying to be funny,@@But the cheese she found underneath!");
 
         owners.add("DrZed");
         owners.add("?????????");
